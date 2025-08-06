@@ -1,0 +1,55 @@
+[
+    {
+        "company_name": "Altamira",
+        "position": "Frontend Engineer",
+        "start_date": {  
+            "month": 12,
+            "year": 2023
+        },
+        "end_date": {
+            "month": 0,
+            "year": 0
+        },
+        "location": {
+            "city": "Tampa",
+            "state": "FL"
+        },
+        "job_bullets": [
+            "Built a document-based LLM analysis tool using Streamlit, Docker, spaCy, and LLaMA 3, allowing users to upload long texts and receive NLP-driven insights, including semantic summaries and interactive chart visualizations.",
+
+            "Operate in a dynamic environment, managing multiple parallel projects while collaborating with interdisciplinary teams to prototype and deliver innovative frontend, AI, and data visualization solutions.",
+
+            "Created a research-focused LLM comparison interface in Streamlit, integrating with Ollama to deliver side-by-side analysis of outputs from LLaMA, Mistral, and DeepSeek, with a clean, real-time UI for exploring cultural and linguistic differences / model biases.",
+
+            "Designed and implemented a React + Flask sentiment analysis dashboard using Hugging Face Transformers and CardiffNLP’s RoBERTa, featuring interactive, token-level charts and clickable graphs to explore sentiment at the word, sentence, paragraph, and chapter levels.",
+
+            "Built a high-volume geospatial mapping frontend with Leaflet.js, OpenStreetMap, and Leaflet.markercluster, visualizing hundreds of thousands of locations geocoded via Nominatim, with optimized performance through batched processing and local JSON for client-side rendering.",
+
+            "Integrated Dockerized services with responsive web UIs to support interactive exploration of LLM outputs and NLP insights across multiple AI visualization tools."
+        
+        ]
+    },
+    {
+        "company_name": "Altamira",
+        "position": "Full Stack Engineer",
+        "start_date": {  
+            "month": 12,
+            "year": 2023
+        },
+        "end_date": {
+            "month": 9,
+            "year": 2024
+        },
+        "location": {
+            "city": "Tampa",
+            "state": "FL"
+        },
+        "job_bullets": [
+            "somethindddg",
+            "somethingasdf else",
+            "somethingasdfasdf other"
+        ]
+    }
+    
+]
+ 
