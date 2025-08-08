@@ -3,6 +3,7 @@
   height: 100vh;
   /* background-color:yellow; */
 
+  /* font-family: 'Open', sans-serif; */
   font-family: 'Inter', sans-serif;
 
   /* font-family: 'Source Sans Pro', sans-serif; */
@@ -25,7 +26,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #f0f0f0;
 
   min-height: 10vh;
 }
@@ -33,7 +34,11 @@
 
 .App-main {
   background-color: #282c34;
-  color: white;
+  color: #f0f0f0;
+  /* color: #e0e0e0; */
+
+
+
   font-size: calc(10px + 2vmin);
 
   display: flex;
@@ -43,7 +48,6 @@
 
   min-height: 100vh;
 
-  
 }
 
 
@@ -65,7 +69,45 @@
 }
 
 
+.headerLeft {
+  text-align: left;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.headerRight {
+  text-align: left;
+  margin-left: 2rem;
+}
+
+.logoLinkCombo {
+  display: flex;
+}
+
+
+
+
+
+
 
 .ExperienceBlock {
   margin: 0rem 2rem 3rem 2rem;
+}
+
+
+.leftRight {
+  display: flex;
+  
+}
+
+.mainLeft {
+  min-width: 25vw;
+}
+
+.mainRight {
+  min-width: 30vw;
+
+  margin-left: 1rem;
+  padding-left: 2rem;
+  border-left: 2px solid white;
 }
