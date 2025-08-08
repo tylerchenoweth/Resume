@@ -22,9 +22,54 @@ function App() {
           <div className="headerLeft">
             
 
-            <p>{header.email}</p>
+            {/* <p>{header.email}</p>
             <p>{header.website}</p>
-            <p>{header.location}</p>
+            <p>{header.location}</p> */}
+
+            <h2 style={{textAlign: "center", textDecoration: "underline"}}>Summary</h2>
+            <p>{header.summary}</p>
+
+            
+            
+
+
+
+          </div>
+
+
+          <div className="headerRight">
+            <h2 style={{textAlign: "center", textDecoration: "underline"}}>Links</h2>
+
+
+            <div className="logoLinkCombo">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+              &nbsp;
+              <p className="logoLinkCombo">{header.email}</p>
+            </div>
+
+
+            <div className="logoLinkCombo">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <line x1="2" y1="12" x2="22" y2="12"/>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+              </svg>
+              &nbsp;
+              <p className="logoLinkCombo">{header.website}</p>
+            </div>
+
+            <div className="logoLinkCombo">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 9L12 2l9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                <polyline points="9 22 9 12 15 12 15 22"/>
+              </svg>
+              &nbsp;
+              <p className="logoLinkCombo">{header.location}</p>
+            </div>
+
 
             <div className="logoLinkCombo">
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
@@ -40,11 +85,9 @@ function App() {
                 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.001 
                 8.001 0 0016 8c0-4.42-3.58-8-8-8z"/>
               </svg>
+              &nbsp;
               <p className="logoLinkCombo">{header.github}</p>
             </div>
-          </div>
-          <div className="headerRight">
-            <p>{header.summary}</p>
           </div>
         </div>
       </header>
