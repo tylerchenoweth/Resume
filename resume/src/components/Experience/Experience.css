@@ -5,12 +5,19 @@
 
 }
 
-.row_left {
-    text-align: left;
+.rowElement {
     margin: 0;
+    padding: -2rem;
 }
 
-.row_right {
+.rowLeft {
+    text-align: left;
+    margin: 0;
+    font-weight: bold !important;
+    
+}
+
+.rowRight {
     text-align: right;
     margin: 0;
 }
@@ -21,4 +28,8 @@
 }
 .bullet {
     text-align: left;
+}
+
+.title {
+    text-decoration: underline;
 }

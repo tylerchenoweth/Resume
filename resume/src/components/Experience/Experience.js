@@ -21,14 +21,14 @@ const Experience = ({json_payload}) => {
         12: 'Dec'
     };
 
-    console.log(json_payload.job_bullets)
 
     return (
         <>
         
         <div className="row">
-            <p className="row_left">{json_payload.company_name}</p>
-            <p className="row_right">
+            <h2 className="rowLeft rowElement">{json_payload.company_name}</h2>
+            
+            <p className="rowRight rowElement">
                 {monthAbbr[json_payload.start_date.month]}&nbsp; 
                 {json_payload.start_date.year}
                 &nbsp;-&nbsp;
@@ -43,12 +43,8 @@ const Experience = ({json_payload}) => {
         </div>
 
         <div className="row">
-            <div className="row_left">
-                <p>{json_payload.position}</p>
-            </div>
-            <div className="row_right">
-                <p>{json_payload.location.city}, {json_payload.location.state}</p>
-            </div>
+            <p className="rowLeft rowElement">{json_payload.position}</p>
+            <p className="rowRight rowElement">{json_payload.location.city}, {json_payload.location.state}</p>
         </div>
 
         <ul className="bullets">
