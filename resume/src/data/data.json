@@ -1,55 +1,222 @@
-[
-    {
-        "company_name": "Altamira",
-        "position": "Frontend Engineer",
-        "start_date": {  
-            "month": 12,
-            "year": 2023
-        },
-        "end_date": {
-            "month": 0,
-            "year": 0
-        },
-        "location": {
-            "city": "Tampa",
-            "state": "FL"
-        },
-        "job_bullets": [
-            "Built a document-based LLM analysis tool using Streamlit, Docker, spaCy, and LLaMA 3, allowing users to upload long texts and receive NLP-driven insights, including semantic summaries and interactive chart visualizations.",
+{
+    "header" : {
+        "name" : "Tyler Chenoweth",
+        "summary" : "Experienced Software Developer with over 6+ years of expertise in building scalable, high- performance web applications. Proficient in Python, Django, and JavaScript, with recent work integrating AI/LLM tools, data visualization, and interactive frontends. Adept at problem-solving, collaborating across teams, and delivering clean, user-focused solutions. Seeking to contribute to a forward-thinking development team with a strong engineering culture.",
+        "email" : "tylerchenoweth1@gmail.com",
+        "website" : "tylerchenoweth.me",
+        "github" : "tylerchenoweth",
+        "location" : "Tampa, FL"
 
-            "Operate in a dynamic environment, managing multiple parallel projects while collaborating with interdisciplinary teams to prototype and deliver innovative frontend, AI, and data visualization solutions.",
-
-            "Created a research-focused LLM comparison interface in Streamlit, integrating with Ollama to deliver side-by-side analysis of outputs from LLaMA, Mistral, and DeepSeek, with a clean, real-time UI for exploring cultural and linguistic differences / model biases.",
-
-            "Designed and implemented a React + Flask sentiment analysis dashboard using Hugging Face Transformers and CardiffNLP’s RoBERTa, featuring interactive, token-level charts and clickable graphs to explore sentiment at the word, sentence, paragraph, and chapter levels.",
-
-            "Built a high-volume geospatial mapping frontend with Leaflet.js, OpenStreetMap, and Leaflet.markercluster, visualizing hundreds of thousands of locations geocoded via Nominatim, with optimized performance through batched processing and local JSON for client-side rendering.",
-
-            "Integrated Dockerized services with responsive web UIs to support interactive exploration of LLM outputs and NLP insights across multiple AI visualization tools."
-        
-        ]
     },
-    {
-        "company_name": "Altamira",
-        "position": "Full Stack Engineer",
-        "start_date": {  
-            "month": 12,
-            "year": 2023
-        },
-        "end_date": {
-            "month": 9,
-            "year": 2024
-        },
-        "location": {
-            "city": "Tampa",
-            "state": "FL"
-        },
-        "job_bullets": [
-            "somethindddg",
-            "somethingasdf else",
-            "somethingasdfasdf other"
-        ]
-    }
     
-]
+    
+    "experience" : [
+        {
+            "company_name": "Altamira",
+            "position": "Frontend Engineer",
+            "start_date": {  
+                "month": 12,
+                "year": 2023
+            },
+            "end_date": {
+                "month": 0,
+                "year": 0
+            },
+            "location": {
+                "city": "Tampa",
+                "state": "FL"
+            },
+            "job_bullets": [
+                "Developed interactive frontend applications using React, Next.js, Streamlit, and Flask with Django backends, powering AI and NLP tools for real-time visualization of LLM outputs, sentiment analysis, and linguistic patterns through token-level charts, semantic summaries, and dynamic graphs.",
+
+                "Engineered high-performance, map-based interfaces with Leaflet.js and OpenStreetMap to render and cluster hundreds of thousands of geocoded locations, optimizing client-side rendering with batched data and local JSON storage.",
+
+                "Collaborated across interdisciplinary teams in a fast-paced environment to prototype and deliver Dockerized, user-focused AI analysis tools, integrating models like LLaMA, Mistral, and DeepSeek with clean, responsive UIs for cultural and bias comparison."
+            ]
+        },
+        {
+            "company_name": "Altamira",
+            "position": "Full Stack Engineer",
+            "start_date": {  
+                "month": 12,
+                "year": 2023
+            },
+            "end_date": {
+                "month": 9,
+                "year": 2024
+            },
+            "location": {
+                "city": "Tampa",
+                "state": "FL"
+            },
+            "job_bullets": [
+                "Built a full-stack web application using Django REST Framework, PostgreSQL, and Next.js, with asynchronous task handling via Celery and real-time interaction between the frontend and backend APIs.",
+
+                "Developed scalable, data-driven features with AWS-integrated PostgreSQL, leveraging pgAdmin for database administration and GitLab for version control and CI/CD adherence.",
+
+                "Collaborated across interdisciplinary teams in a fast-paced environment to prototype and deliver Dockerized, user-focused AI analysis tools, integrating models like LLaMA, Mistral, and DeepSeek with clean, responsive UIs for cultural and bias comparison."    
+            ]
+        },
+        {
+            "company_name": "RED Lattice",
+            "position": "Software Engineer",
+            "start_date": {  
+                "month": 6,
+                "year": 2022
+            },
+            "end_date": {
+                "month": 10,
+                "year": 2023
+            },
+            "location": {
+                "city": "Chantilly",
+                "state": "VA"
+            },
+            "job_bullets": [
+                "Delivered frontend and backend features for a Dockerized Django + PostgreSQL web application, including direct implementation of user-facing components and test-driven development with PyTest to ensure system stability.",
+
+                "Collaborated closely with the client on-site for six months, gathering real-time feedback and translating evolving requirements into actionable development updates, ensuring the product aligned with user needs.",
+
+                "Contributed to project success using a modern development stack (Django, PostgreSQL, GraphQL, Docker), and authored comprehensive end-user documentation to support adoption and usability."
+            ]
+        },
+        {
+            "company_name": "Concurrent Technologies Corporation",
+            "position": "Software Engineer",
+            "start_date": {  
+                "month": 1,
+                "year": 2020
+            },
+            "end_date": {
+                "month": 6,
+                "year": 2022
+            },
+            "location": {
+                "city": "Savage",
+                "state": "MD"
+            },
+            "job_bullets": [
+                "Led UI redesign efforts in collaboration with clients to improve usability and visual consistency across multiple sites, while managing full-stack development using Flask, MongoDB, and Elasticsearch.",
+
+                "Built custom Python 3 tools to streamline backend testing workflows and contributed to automated testing by writing and maintaining test cases.",
+
+                "Participated in regular client scrum meetings to track progress and deliver updates, and helped maintain and expand a secure cyber-guard system for cross-network file exchange."
+            ]
+        },
+        {
+            "company_name": "Enterprise Ventures Corporation",
+            "position": "Software Engineer",
+            "start_date": {  
+                "month": 7,
+                "year": 2019
+            },
+            "end_date": {
+                "month": 1,
+                "year": 2020
+            },
+            "location": {
+                "city": "Savage",
+                "state": "MD"
+            },
+            "job_bullets": [
+                "Enhanced a cross-domain solution for secure file exchange, contributing to a large-scale software system in a Linux-based Agile environment using GitLab, Jenkins, JIRA, and VMware.",
+
+                "Deployed and configured the Large Dataset Analysis Tool (LDAT) on CentOS 7 to evaluate AGIS performance, creating test files to identify and resolve filtering issues across varied data types."
+            ]
+        },
+        {
+            "company_name": "PA Health and Wellness",
+            "position": "Software Engineer",
+            "start_date": {  
+                "month": 7,
+                "year": 2019
+            },
+            "end_date": {
+                "month": 1,
+                "year": 2020
+            },
+            "location": {
+                "city": "Savage",
+                "state": "MD"
+            },
+            "job_bullets": [
+                "Extracted and analyzed web portal data using SQL, creating dynamic Excel dashboards with Power Query, pivot tables, and charts to automate reporting and improve data visualization.",
+
+                "Streamlined analysis workflows to enhance efficiency and ensure accurate, actionable insights for stakeholders."
+            ]
+        }
+        
+    ],
+
+    "skills" : [
+        {
+            "title" :"Programming Skills",
+            "list" : [
+                "Django",
+                "Python 3.x",
+                "Next.js",
+                "React",
+                "Java",
+                "Spring Boot",
+                "TypeScript",
+                "Flask",
+                "JavaScript",
+                "Streamlit",
+                "PostgreSQL",
+                "MySQL",
+                "HTML5",
+                "CSS3",
+                "Bootstrap 5",
+                "Jinja Templates",
+                "MongoDB",
+                "C++",
+                "C",
+                "Scala",
+                "Pytest",
+                "Behave",
+                "Leaflet.js"
+            ]
+        },
+        {
+            "title" :"Technologies",
+            "list" : [
+                "Git",
+                "GitHub",
+                "GitLab",
+                "VS Code",
+                "OS X / Windows / Linux Environments",
+                "AWS",
+                "pgAdmin",
+                "Docker",
+                "Docker Desktop",
+                "Jira",
+                "Confluence",
+                "Elasticsearch",
+                "Kibana",
+                "VMWare",
+                "VirtualBox",
+                "Shell Scripting",
+                "Arduino",
+                "Raspberry Pi",
+                "WSL",
+                "Nominatim",
+                "OpenStreetMap",
+                "OpenWeatherMap"
+            ]
+        },
+        {
+            "title" :"AI / ML / NLP Tools",
+            "list" : [
+                "Ollama",
+                "Hugging Face Transformers",
+                "spaCy",
+                "CardiffNLP",
+                "Prompt Engineering",
+                "Sentiment Analysis",
+                "NLP Pipelines"
+            ]
+        }
+    ]
+
+}
  
