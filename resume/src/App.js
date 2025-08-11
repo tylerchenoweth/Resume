@@ -1,22 +1,29 @@
 
 import Experience from './components/Experience/Experience';
 import SkillList from './components/SkillsList/SkillList';
+import LinkList from './components/Links/LinkList';
 
 import data from './data/data.json';
 
 import './App.css';
-import ColorPalette from './components/ColorPalette/ColorPalette';
+
 
 function App() {
 
   var header = data['header'];
   var experience = data['experience'];
-  var skills = data['skills']
+  var skills = data['skills'];
+  var links = data['links'];
+
+
 
   return (
     <div className="App">
       <header className="App-header">
-        <h1>{header.name}</h1>
+        <div className="nameTitle">
+          <h1 className="name">{header.name}</h1>
+          <h2 className="jobTitle">{header.title}</h2>
+        </div>
 
         <div className="leftRight">
           <div className="headerLeft">
@@ -26,22 +33,27 @@ function App() {
             <p>{header.website}</p>
             <p>{header.location}</p> */}
 
-            <h2 style={{textAlign: "center", textDecoration: "underline"}}>Summary</h2>
+            <h1 style={{textAlign: "center", textDecoration: "underline"}}>Summary</h1>
             <p>{header.summary}</p>
-
-            
-            
-
-
 
           </div>
 
 
           <div className="headerRight">
-            <h2 style={{textAlign: "center", textDecoration: "underline"}}>Links</h2>
+
+            {/* <h2 style={{textAlign: "center", textDecoration: "underline"}}>Links</h2> */}
 
 
-            <div className="logoLinkCombo">
+            
+            <LinkList links={links} />
+
+            
+
+
+    
+
+
+            {/* <div className="logoLinkCombo">
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
                 <polyline points="22,6 12,13 2,6"/>
@@ -87,7 +99,7 @@ function App() {
               </svg>
               &nbsp;
               <p className="logoLinkCombo">{header.github}</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </header>
