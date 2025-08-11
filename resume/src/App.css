@@ -51,6 +51,20 @@ a:hover { text-decoration: underline; }
 }
 
 
+
+.nameTitle {
+  display: flex;
+  margin: 0 auto var(--space-4);
+  max-width: var(--maxw);
+}
+
+.block {
+  background-color: var(--bg-main);
+  min-height: 100%;
+  width: 5%;
+}
+
+
 .name {
   max-width: var(--maxw);
   margin: 0 auto var(--space-4);
@@ -76,6 +90,11 @@ a:hover { text-decoration: underline; }
 
   
 }
+
+
+
+
+
 
 /* Header columns: 66 / 34 split */
 .headerLeft  { flex: 0 1 66%; }

@@ -20,9 +20,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+
         <div className="nameTitle">
-          <h1 className="name">{header.name}</h1>
-          <h2 className="jobTitle">{header.title}</h2>
+          <div className="block"></div>
+          <div className="nameTitleRight">
+            <h1 className="name">{header.name}</h1>
+            <h2 className="jobTitle">{header.title}</h2>
+          </div>
         </div>
 
         <div className="leftRight">
