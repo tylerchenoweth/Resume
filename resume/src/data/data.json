@@ -33,23 +33,29 @@
         }
     ],
 
-    "education": {
-        "school": "Salisbury University",
-        "year": 2017,
-        "graduation_date": {
-            "month": "Dec",
-            "year": 2017
-        },
-        "degree": "Computer Science",
-        "degree_type": "Bachelor of Science"
-    },
+    "education": [
+        {
+            "school": "Salisbury University",
+            "year": 2017,
+            "graduation_date": {
+                "month": "Dec",
+                "year": 2017
+            },
+            "degree": "Computer Science",
+            "degree_type": "Bachelor of Science"
+        }
+    ],
 
     "clearance": "TS/SCI",
 
     "certs": [
         {
-            "cert": "Scrume Master",
-            "given_by": "Internation Scrum Institute"
+            "cert": "Scrum Master",
+            "given_by": "Internation Scrum Institute",
+            "date": {  
+                "month": 8,
+                "year": 2024
+            }
         }
     ],
 
