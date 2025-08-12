@@ -1,0 +1,22 @@
+.educationList {
+  margin-top: 1rem;
+}
+
+.educationItem {
+  margin-bottom: 1rem;
+  margin-left: 3vw; 
+}
+
+.degreeType {
+  color: var(--muted);
+}
+
+.degree {
+  margin-left: 4vw; /* indent only the degree name */
+  color: var(--muted);
+}
+
+.date {
+  font-size: 0.9rem;
+  color: var(--accent);
+}

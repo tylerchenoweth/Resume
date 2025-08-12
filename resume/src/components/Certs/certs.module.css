@@ -1,0 +1,18 @@
+.certList {
+  margin-top: 1rem;
+}
+
+/* indent the certification entries like your old bullet list */
+.certItem {
+  margin-bottom: 1rem;
+  margin-left: 3vw; 
+}
+
+.givenBy {
+  color: var(--muted);
+}
+
+.date {
+  font-size: 0.9rem;
+  color: var(--accent);
+}

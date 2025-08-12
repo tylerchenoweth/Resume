@@ -1,0 +1,8 @@
+.clearSection {
+  margin-top: 1rem;
+}
+
+.clearValue {
+  margin-left: 3vw; /* indent like bullets */
+  color: var(--muted);
+}
