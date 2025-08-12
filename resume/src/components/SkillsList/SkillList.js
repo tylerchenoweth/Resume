@@ -1,21 +1,24 @@
-import "./SkillList.css";
+import styles from "./skills.module.css";
 
+const SkillList = ({ skills }) => {
+  return (
+    <>
+      {skills.map((skill, index) => (
+        <div className={styles.SkillBlock} key={index}>
+          <h2 className="sectionTitle">{skill.title}</h2>
 
-const SkillList = ({json_payload}) => {
-
-    return (
-        <>
-        <h2 className="title">{json_payload["title"]}</h2>
-
-        <ul className="bullets">
-            {json_payload.list.map((bullet, index) => (
-                <li className="bullet" key={index}>
-                    {bullet}
-                </li>
+          <ul className={styles.bullets}>
+            {skill.list.map((bullet, i) => (
+              <li className={styles.bullet} key={i}>
+                {bullet}
+              </li>
             ))}
-        </ul>
-        </>
-    )
-}
+          </ul>
+          <br />
+        </div>
+      ))}
+    </>
+  );
+};
 
 export default SkillList;

@@ -4,3 +4,9 @@
     text-align: center;
     text-decoration: 'underline';
 }
+
+.linkIcon {
+    display: flex;
+    align-items: center;  /* vertical center */
+    justify-content: center; /* optional: horizontal center */
+}
