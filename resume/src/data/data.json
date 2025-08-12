@@ -33,6 +33,26 @@
         }
     ],
 
+    "education": {
+        "school": "Salisbury University",
+        "year": 2017,
+        "graduation_date": {
+            "month": "Dec",
+            "year": 2017
+        },
+        "degree": "Computer Science",
+        "degree_type": "Bachelor of Science"
+    },
+
+    "clearance": "TS/SCI",
+
+    "certs": [
+        {
+            "cert": "Scrume Master",
+            "given_by": "Internation Scrum Institute"
+        }
+    ],
+
     "experience" : [
         {
             "company_name": "Altamira",
