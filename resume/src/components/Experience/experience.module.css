@@ -1,0 +1,48 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.rowHeader {
+  align-items: baseline;
+  margin-bottom: 0.25rem;   /* tiny gap after company/date */
+}
+
+.rowElement {
+  margin: 0;
+  padding: 0;
+  display: block;
+  line-height: 1.1;
+}
+
+.rowLeft {
+  text-align: left;
+  font-weight: 700;
+}
+
+.rowRight {
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* space after title/location row */
+.row:not(.rowHeader) {
+  margin-bottom: 1rem;   /* tiny gap after job title/location */
+}
+
+/* bullets */
+.bullets {
+  margin: 0.25rem 0 0 1rem; /* slight top space before bullets */
+  padding: 0;
+}
+
+.bullet {
+  text-align: left;
+}
+
+/* optional: keep h2 visually tight */
+h2.rowLeft {
+  line-height: 1.1;
+}
