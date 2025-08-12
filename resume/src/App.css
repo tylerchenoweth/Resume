@@ -61,7 +61,7 @@ a:hover { text-decoration: underline; }
 .block {
   background-color: var(--bg-main);
   min-height: 100%;
-  width: 5%;
+  width: 3%;
 }
 
 
